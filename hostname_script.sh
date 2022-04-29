@@ -1,6 +1,5 @@
 #!/bin/bash
 
-echo "adding hostnames to etc hosts files"
 
 
 sudo cat << EOF >> /etc/hosts
