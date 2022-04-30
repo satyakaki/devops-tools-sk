@@ -9,7 +9,3 @@ sudo cat << EOF >> /etc/hosts
 192.168.56.12 devops2
 192.168.56.13 devops3
 EOF
-
-echo "ensuring nothing added to /etc/hosts.deny file"
-
-cat /dev/null > /etc/hosts.deny
