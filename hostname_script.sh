@@ -13,4 +13,5 @@ EOF
 
 echo "ensuring nothing added to /etc/hosts.deny file"
 
+##
 cat /dev/null > /etc/hosts.deny
